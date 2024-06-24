@@ -1,9 +1,6 @@
 //IP Grabber
  
 //Variables
-
-<html>
-<body>
  
 <?php
 echo "My first PHP script!";
@@ -26,5 +23,3 @@ fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
 fclose($fh);
 ?>
 
-</body>
-</html>
