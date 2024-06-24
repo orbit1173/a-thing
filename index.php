@@ -1,9 +1,17 @@
-<?php
- 
 //IP Grabber
  
 //Variables
+
+<html>
+<body>
  
+<?php
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
+
 $protocol = $_SERVER['SERVER_PROTOCOL'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $port = $_SERVER['REMOTE_PORT'];
