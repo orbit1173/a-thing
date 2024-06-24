@@ -9,9 +9,6 @@
 echo "My first PHP script!";
 ?>
 
-</body>
-</html>
-
 $protocol = $_SERVER['SERVER_PROTOCOL'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $port = $_SERVER['REMOTE_PORT'];
@@ -29,3 +26,6 @@ fwrite($fh, 'User Agent: '."".$agent ."\n");
 fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
 fclose($fh);
 ?>
+
+</body>
+</html>
