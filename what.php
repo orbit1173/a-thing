@@ -3,7 +3,6 @@
 //Variables
  
 <?php
-echo "My first PHP script!";
 
 $protocol = $_SERVER['SERVER_PROTOCOL'];
 $ip = $_SERVER['REMOTE_ADDR'];
